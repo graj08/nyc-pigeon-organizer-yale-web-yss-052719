@@ -6,7 +6,6 @@ def nyc_pigeon_organizer(data)
     type.each do |type2,name|
       name.each do |names|
       pigeon_list[names] = {attribute => type2}
-    else
     end
   end
 end
