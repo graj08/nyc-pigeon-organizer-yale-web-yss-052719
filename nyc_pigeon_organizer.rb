@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[names][attribute].push(type2.to_s)
         elsif pigeon_list.keys.include?(names)&&!(pigeon_list[names].include?(attribute))
           pigeon_list[names][attribute] = [type2.to_s]
-        else          
+        else
       pigeon_list[names] = Hash.new
       pigeon_list[names][attribute] = [type2.to_s]
     end
